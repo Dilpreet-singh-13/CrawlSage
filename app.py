@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from typing import List
 
 import gradio as gr
-from pydantic_ai.messages import ModelResponse, ModelRequest, TextPart, UserPromptPart
+from pydantic_ai.messages import ModelResponse, TextPart
 
 from crawler import initialize_session_maker
 from crawl4ai_RAG_agent import RAGDeps, rag_agent
