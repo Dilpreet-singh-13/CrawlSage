@@ -86,4 +86,4 @@ This runs the app on `http://127.0.0.1:7860/`
 
 ## Screenshots
 
-![App Screenshot](assets\app_screenshot.png)
+![App Screenshot](assets/app_screenshot.png)
