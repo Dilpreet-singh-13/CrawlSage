@@ -39,5 +39,5 @@ async def run_agent(user_input: str, history: List):
     yield result.data
 
 
-demo = gr.ChatInterface(fn=run_agent, type="messages", title="Crawl4ai Agent")
+demo = gr.ChatInterface(fn=run_agent, type="messages", title="CrawlSage")
 demo.launch()
